@@ -1,0 +1,107 @@
+data:
+  derivatives_dir: data/derivatives
+  preprocessed_dir: data/preprocessed
+  raw_dir: ds002680
+  results_dir: results
+erp_analysis:
+  conditions:
+    familiar:
+    - familiar_animal
+    - familiar_non_animal
+    new:
+    - new_animal
+    - new_non_animal
+  roi:
+    frontal:
+    - FP1
+    - FP2
+    parieto_occipital:
+    - P3
+    - P3"
+    - P4
+    - P4"
+    - PZ
+    - PZ"
+    - CZ
+  statistics:
+    alpha: 0.05
+    fdr_correction: true
+    n_permutations: 1000
+  time_windows:
+    early_frontal:
+    - 0.23
+    - 0.4
+    late_parietal:
+    - 0.4
+    - 0.6
+preprocessing:
+  artist:
+    flat_criteria:
+      eeg: 1e-6
+    reject_criteria:
+      eeg: 100e-6
+  completed: true
+  epoching:
+    baseline:
+    - -0.1
+    - 0.0
+    reject_criteria:
+      eeg: 100e-6
+    tmax: 0.6
+    tmin: -0.1
+  filter:
+    h_freq: 100.0
+    l_freq: 0.2
+    method: fir
+    notch_freq: 50.0
+    phase: zero
+  ica:
+    fit_params:
+      extended: true
+    max_iter: 500
+    method: infomax
+    n_components: null
+    random_state: 42
+  iclabel:
+    reject_classes:
+    - eye blink
+    - muscle artifact
+    - line noise
+    threshold: 0.7
+  results:
+    mean_channels: 31
+    mean_duration_sec: 214.627
+    n_sessions_processed: 250
+    n_subjects_processed: 10
+quality_metrics:
+  max_bad_channels_ratio: 0.1
+  min_good_epochs_ratio: 0.7
+  snr_percentile_threshold: 10
+subjects:
+  exclude_noisy: true
+  manual_ica_subject: sub-003
+  selected:
+  - sub-015
+  - sub-006
+  - sub-010
+  - sub-012
+  - sub-007
+  - sub-003
+  - sub-002
+  - sub-011
+  - sub-004
+  - sub-014
+  target_n: 10
+  total_available: 24
+visualization:
+  colors:
+    difference: '#DC143C'
+    familiar: '#2E8B57'
+    new: '#4169E1'
+  dpi: 300
+  figure_format:
+  - png
+  - svg
+  figure_size:
+  - 12
+  - 8

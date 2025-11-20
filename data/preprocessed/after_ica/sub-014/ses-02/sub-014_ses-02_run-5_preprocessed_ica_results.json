@@ -1,0 +1,507 @@
+{
+  "subject": "sub-014",
+  "total_components": 30,
+  "labels": [
+    "eye blink",
+    "muscle artifact",
+    "muscle artifact",
+    "brain",
+    "brain",
+    "other",
+    "brain",
+    "muscle artifact",
+    "eye blink",
+    "brain",
+    "brain",
+    "muscle artifact",
+    "other",
+    "brain",
+    "other",
+    "muscle artifact",
+    "other",
+    "brain",
+    "other",
+    "other",
+    "muscle artifact",
+    "other",
+    "other",
+    "brain",
+    "other",
+    "brain",
+    "muscle artifact",
+    "muscle artifact",
+    "other",
+    "brain"
+  ],
+  "canonical_labels": [
+    "eye_blink",
+    "muscle_artifact",
+    "muscle_artifact",
+    "brain",
+    "brain",
+    "other",
+    "brain",
+    "muscle_artifact",
+    "eye_blink",
+    "brain",
+    "brain",
+    "muscle_artifact",
+    "other",
+    "brain",
+    "other",
+    "muscle_artifact",
+    "other",
+    "brain",
+    "other",
+    "other",
+    "muscle_artifact",
+    "other",
+    "other",
+    "brain",
+    "other",
+    "brain",
+    "muscle_artifact",
+    "muscle_artifact",
+    "other",
+    "brain"
+  ],
+  "probabilities": [
+    {
+      "eye_blink": 0.9750580787658691
+    },
+    {
+      "muscle_artifact": 0.3598793148994446
+    },
+    {
+      "muscle_artifact": 0.9721941947937012
+    },
+    {
+      "brain": 0.9389356374740601
+    },
+    {
+      "brain": 0.5630147457122803
+    },
+    {
+      "other": 0.7160723209381104
+    },
+    {
+      "brain": 0.7093545198440552
+    },
+    {
+      "muscle_artifact": 0.9104373455047607
+    },
+    {
+      "eye_blink": 0.7075116634368896
+    },
+    {
+      "brain": 0.3978215456008911
+    },
+    {
+      "brain": 0.6547229886054993
+    },
+    {
+      "muscle_artifact": 0.8190479278564453
+    },
+    {
+      "other": 0.6788524985313416
+    },
+    {
+      "brain": 0.787303626537323
+    },
+    {
+      "other": 0.6264981031417847
+    },
+    {
+      "muscle_artifact": 0.8863794207572937
+    },
+    {
+      "other": 0.7825650572776794
+    },
+    {
+      "brain": 0.9561415314674377
+    },
+    {
+      "other": 0.8706279993057251
+    },
+    {
+      "other": 0.5280675292015076
+    },
+    {
+      "muscle_artifact": 0.901011049747467
+    },
+    {
+      "other": 0.8471699357032776
+    },
+    {
+      "other": 0.4287705421447754
+    },
+    {
+      "brain": 0.9229978322982788
+    },
+    {
+      "other": 0.6029189825057983
+    },
+    {
+      "brain": 0.963127613067627
+    },
+    {
+      "muscle_artifact": 0.3629024624824524
+    },
+    {
+      "muscle_artifact": 0.8527970314025879
+    },
+    {
+      "other": 0.7237252593040466
+    },
+    {
+      "brain": 0.8780903816223145
+    }
+  ],
+  "rejected_components": [
+    0,
+    2,
+    7,
+    8,
+    11,
+    15,
+    20,
+    27
+  ],
+  "rejection_threshold": 0.7,
+  "rejected_classes": [
+    "eye_blink",
+    "line_noise",
+    "muscle_artifact"
+  ],
+  "classes": [
+    "brain",
+    "muscle",
+    "eye",
+    "heart",
+    "line_noise",
+    "channel_noise",
+    "other"
+  ],
+  "review_method": "automated_iclabel",
+  "component_details": [
+    {
+      "component": 0,
+      "predicted_label": "eye blink",
+      "canonical_label": "eye_blink",
+      "decision_probability": 0.9750580787658691,
+      "probabilities": {
+        "eye_blink": 0.9750580787658691
+      },
+      "rejected": true
+    },
+    {
+      "component": 1,
+      "predicted_label": "muscle artifact",
+      "canonical_label": "muscle_artifact",
+      "decision_probability": 0.3598793148994446,
+      "probabilities": {
+        "muscle_artifact": 0.3598793148994446
+      },
+      "rejected": false
+    },
+    {
+      "component": 2,
+      "predicted_label": "muscle artifact",
+      "canonical_label": "muscle_artifact",
+      "decision_probability": 0.9721941947937012,
+      "probabilities": {
+        "muscle_artifact": 0.9721941947937012
+      },
+      "rejected": true
+    },
+    {
+      "component": 3,
+      "predicted_label": "brain",
+      "canonical_label": "brain",
+      "decision_probability": 0.9389356374740601,
+      "probabilities": {
+        "brain": 0.9389356374740601
+      },
+      "rejected": false
+    },
+    {
+      "component": 4,
+      "predicted_label": "brain",
+      "canonical_label": "brain",
+      "decision_probability": 0.5630147457122803,
+      "probabilities": {
+        "brain": 0.5630147457122803
+      },
+      "rejected": false
+    },
+    {
+      "component": 5,
+      "predicted_label": "other",
+      "canonical_label": "other",
+      "decision_probability": 0.7160723209381104,
+      "probabilities": {
+        "other": 0.7160723209381104
+      },
+      "rejected": false
+    },
+    {
+      "component": 6,
+      "predicted_label": "brain",
+      "canonical_label": "brain",
+      "decision_probability": 0.7093545198440552,
+      "probabilities": {
+        "brain": 0.7093545198440552
+      },
+      "rejected": false
+    },
+    {
+      "component": 7,
+      "predicted_label": "muscle artifact",
+      "canonical_label": "muscle_artifact",
+      "decision_probability": 0.9104373455047607,
+      "probabilities": {
+        "muscle_artifact": 0.9104373455047607
+      },
+      "rejected": true
+    },
+    {
+      "component": 8,
+      "predicted_label": "eye blink",
+      "canonical_label": "eye_blink",
+      "decision_probability": 0.7075116634368896,
+      "probabilities": {
+        "eye_blink": 0.7075116634368896
+      },
+      "rejected": true
+    },
+    {
+      "component": 9,
+      "predicted_label": "brain",
+      "canonical_label": "brain",
+      "decision_probability": 0.3978215456008911,
+      "probabilities": {
+        "brain": 0.3978215456008911
+      },
+      "rejected": false
+    },
+    {
+      "component": 10,
+      "predicted_label": "brain",
+      "canonical_label": "brain",
+      "decision_probability": 0.6547229886054993,
+      "probabilities": {
+        "brain": 0.6547229886054993
+      },
+      "rejected": false
+    },
+    {
+      "component": 11,
+      "predicted_label": "muscle artifact",
+      "canonical_label": "muscle_artifact",
+      "decision_probability": 0.8190479278564453,
+      "probabilities": {
+        "muscle_artifact": 0.8190479278564453
+      },
+      "rejected": true
+    },
+    {
+      "component": 12,
+      "predicted_label": "other",
+      "canonical_label": "other",
+      "decision_probability": 0.6788524985313416,
+      "probabilities": {
+        "other": 0.6788524985313416
+      },
+      "rejected": false
+    },
+    {
+      "component": 13,
+      "predicted_label": "brain",
+      "canonical_label": "brain",
+      "decision_probability": 0.787303626537323,
+      "probabilities": {
+        "brain": 0.787303626537323
+      },
+      "rejected": false
+    },
+    {
+      "component": 14,
+      "predicted_label": "other",
+      "canonical_label": "other",
+      "decision_probability": 0.6264981031417847,
+      "probabilities": {
+        "other": 0.6264981031417847
+      },
+      "rejected": false
+    },
+    {
+      "component": 15,
+      "predicted_label": "muscle artifact",
+      "canonical_label": "muscle_artifact",
+      "decision_probability": 0.8863794207572937,
+      "probabilities": {
+        "muscle_artifact": 0.8863794207572937
+      },
+      "rejected": true
+    },
+    {
+      "component": 16,
+      "predicted_label": "other",
+      "canonical_label": "other",
+      "decision_probability": 0.7825650572776794,
+      "probabilities": {
+        "other": 0.7825650572776794
+      },
+      "rejected": false
+    },
+    {
+      "component": 17,
+      "predicted_label": "brain",
+      "canonical_label": "brain",
+      "decision_probability": 0.9561415314674377,
+      "probabilities": {
+        "brain": 0.9561415314674377
+      },
+      "rejected": false
+    },
+    {
+      "component": 18,
+      "predicted_label": "other",
+      "canonical_label": "other",
+      "decision_probability": 0.8706279993057251,
+      "probabilities": {
+        "other": 0.8706279993057251
+      },
+      "rejected": false
+    },
+    {
+      "component": 19,
+      "predicted_label": "other",
+      "canonical_label": "other",
+      "decision_probability": 0.5280675292015076,
+      "probabilities": {
+        "other": 0.5280675292015076
+      },
+      "rejected": false
+    },
+    {
+      "component": 20,
+      "predicted_label": "muscle artifact",
+      "canonical_label": "muscle_artifact",
+      "decision_probability": 0.901011049747467,
+      "probabilities": {
+        "muscle_artifact": 0.901011049747467
+      },
+      "rejected": true
+    },
+    {
+      "component": 21,
+      "predicted_label": "other",
+      "canonical_label": "other",
+      "decision_probability": 0.8471699357032776,
+      "probabilities": {
+        "other": 0.8471699357032776
+      },
+      "rejected": false
+    },
+    {
+      "component": 22,
+      "predicted_label": "other",
+      "canonical_label": "other",
+      "decision_probability": 0.4287705421447754,
+      "probabilities": {
+        "other": 0.4287705421447754
+      },
+      "rejected": false
+    },
+    {
+      "component": 23,
+      "predicted_label": "brain",
+      "canonical_label": "brain",
+      "decision_probability": 0.9229978322982788,
+      "probabilities": {
+        "brain": 0.9229978322982788
+      },
+      "rejected": false
+    },
+    {
+      "component": 24,
+      "predicted_label": "other",
+      "canonical_label": "other",
+      "decision_probability": 0.6029189825057983,
+      "probabilities": {
+        "other": 0.6029189825057983
+      },
+      "rejected": false
+    },
+    {
+      "component": 25,
+      "predicted_label": "brain",
+      "canonical_label": "brain",
+      "decision_probability": 0.963127613067627,
+      "probabilities": {
+        "brain": 0.963127613067627
+      },
+      "rejected": false
+    },
+    {
+      "component": 26,
+      "predicted_label": "muscle artifact",
+      "canonical_label": "muscle_artifact",
+      "decision_probability": 0.3629024624824524,
+      "probabilities": {
+        "muscle_artifact": 0.3629024624824524
+      },
+      "rejected": false
+    },
+    {
+      "component": 27,
+      "predicted_label": "muscle artifact",
+      "canonical_label": "muscle_artifact",
+      "decision_probability": 0.8527970314025879,
+      "probabilities": {
+        "muscle_artifact": 0.8527970314025879
+      },
+      "rejected": true
+    },
+    {
+      "component": 28,
+      "predicted_label": "other",
+      "canonical_label": "other",
+      "decision_probability": 0.7237252593040466,
+      "probabilities": {
+        "other": 0.7237252593040466
+      },
+      "rejected": false
+    },
+    {
+      "component": 29,
+      "predicted_label": "brain",
+      "canonical_label": "brain",
+      "decision_probability": 0.8780903816223145,
+      "probabilities": {
+        "brain": 0.8780903816223145
+      },
+      "rejected": false
+    }
+  ],
+  "session": "ses-02",
+  "run": "run-5",
+  "run_label": "sub-014_ses-02_run-5",
+  "timestamp_utc": "2025-11-09T13:31:53.403030Z",
+  "class_order": [
+    "brain",
+    "muscle",
+    "eye",
+    "heart",
+    "line_noise",
+    "channel_noise",
+    "other"
+  ],
+  "threshold": 0.7,
+  "reject_targets": [
+    "eye_blink",
+    "line_noise",
+    "muscle_artifact"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "subject": "sub-010",
+  "session": "ses-02",
+  "run": "run-6",
+  "n_components": 30,
+  "rejected_components": [
+    0,
+    1,
+    7,
+    10,
+    24
+  ],
+  "n_rejected": 5,
+  "method": "iclabel_automated",
+  "threshold": 0.7
+}

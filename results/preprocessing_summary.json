@@ -1,0 +1,12 @@
+{
+  "total_sessions": 250,
+  "subjects_processed": 10,
+  "mean_duration_sec": 214.627,
+  "mean_channels": 31,
+  "preprocessing_stages": [
+    "filtering",
+    "line_noise_removal",
+    "rereferencing"
+  ],
+  "manual_ica_subject": "sub-003"
+}
