@@ -1,24 +1,50 @@
-This is an research results replication project for an EEG memory recognition study 
+# EEG Memory Recognition Study: Replication Project
 
-The study: Delorme, A., Poncet, M., and Fabre-Thorpe, M. (2018). Briefly Flashed Scenes Can Be Stored in Long-Term Memory. Front. Neurosci. 12:688. doi: 10.3389/fnins.2018.00688
+This is a research replication project based on the EEG memory recognition study:
 
-This project reproduces key results of the study by processing and visualizing EEG data following procedures outlined in the paper, using part of its data shared on https://openneuro.org/datasets/ds002680. 
+> Delorme, A., Poncet, M., & Fabre-Thorpe, M. (2018). *Briefly Flashed Scenes Can Be Stored in Long-Term Memory*. Frontiers in Neuroscience, 12:688. https://doi.org/10.3389/fnins.2018.00688
 
-For the key results and their interpretation, please see main.ipynb. other files are data processing or supporting files, instead of result presentation. 
+This project reproduces key results from the study by processing and visualizing EEG data, following procedures outlined in the paper. It uses a subset of data shared on [OpenNeuro](https://openneuro.org/datasets/ds002680).
 
-Scope of this project includes:
+- For key results and interpretation, see: `main.ipynb`  
+- For an overview of file purposes and structure, see: `project_structure_summary.ipynb`  
+- Other files are for preprocessing or internal support and do not present final results.
 
-- EEG data preprocessing for trains subjects:
--- Raw data quality assessment and subject selection
--- Band path filtering
--- ICA artifact rejection: manually on 1 subject, automatically with ICALabel on the others
--- Contaminated segment rejection: manually on 1 subject, automatically with AutoReject on the others)
--- Computing and comparing quality metrics (SME) before/after preprocessing 
+---
 
-- ERP results computation and visualization:
--- Familiarity effect: Compare ERP between familiar and new images, on all electrodes and timepoints, with t-test + FDR correction. Reproduce familiarity effect ERP plot of the study. 
--- Repetition effect: Detect Electrodes where familiarity effect is significant and examine whether the familiarity effect differs repetition-wisely on these channels using ANOVA. Reproduce familiarity effect ERP plot of the study. 
--- Category effect: Compare familiarity effect and ERP between animal and non-animal images, on all electrodes and timepoints, with t-test + FDR correction. Reproduce category effect ERP plot of the study. 
+## Project Scope
+
+### EEG Data Preprocessing (for training subjects)
+
+- Raw data quality assessment and subject selection  
+- Band-pass filtering  
+- ICA artifact rejection:  
+  - Manually performed on **1 subject**  
+  - Automatically performed using **ICLabel** on **remaining subjects**  
+- Contaminated segment rejection:  
+  - Manually on 1 subject  
+  - Automatically using **AutoReject** on others  
+- Quality validation using **Standardized Measurement Error (SME)**, before and after preprocessing  
+
+---
+
+### ERP Result Computation and Visualization
+
+- **Familiarity Effect**  
+  - Compare ERP responses to familiar vs. new images  
+  - Analysis across all electrodes and time points using **t-tests with FDR correction**  
+  - Reproduce the **familiarity effect ERP plot** from the original study  
+
+- **Repetition Effect**  
+  - Identify electrodes where the familiarity effect is significant  
+  - Use **ANOVA** to test whether the familiarity effect varies by repetition on these electrodes  
+  - Reproduce the **repetition effect ERP plot**  
+
+- **Category Effect**  
+  - Compare both the familiarity effect and ERP responses between **animal vs. non-animal** images  
+  - Analysis across all electrodes and time points with **t-tests and FDR correction**  
+  - Reproduce the **category effect ERP plot**
+
 
 _______
 
